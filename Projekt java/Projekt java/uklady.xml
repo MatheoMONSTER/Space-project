@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.1" class="java.beans.XMLDecoder">
+ <object class="com.Kosmos.Układy.Uklady" id="Uklady0"/>
+<void class="com.Kosmos.Planety.Gwiazda" method="getField">
+ <string>jasnosc</string>
+ <void method="set">
+  <object class="com.Kosmos.Planety.Gwiazda" id="Gwiazda0">
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>promien</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <float>696340.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>rodzajCialaNiebieskiego</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.Kosmos.Model.RodzajCialaNiebieskiego</class>
+      <string>Gwiazda</string>
+     </object>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>temperaturaKelvin</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <float>5778.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwaKatalogowa</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <string>OK:CN:G:Słońce</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwa</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <string>Słońce</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>deklinacja</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <object class="com.Kosmos.Model.Deklinacja"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>masa</string>
+    <void method="set">
+     <object idref="Gwiazda0"/>
+     <double>1.989000014062259E30</double>
+    </void>
+   </void>
+  </object>
+  <double>1.0</double>
+ </void>
+</void>
+<void class="com.Kosmos.Planety.Planeta" method="getField">
+ <string>rodzajPlanety</string>
+ <void method="set">
+  <object class="com.Kosmos.Planety.Planeta" id="Planeta0">
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>promien</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <float>69911.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>rodzajCialaNiebieskiego</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <object class="java.lang.Enum" id="RodzajCialaNiebieskiego0" method="valueOf">
+      <class>com.Kosmos.Model.RodzajCialaNiebieskiego</class>
+      <string>Planeta</string>
+     </object>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>temperaturaKelvin</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <float>165.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwaKatalogowa</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <string>OK:CN:P:Jowisz</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwa</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <string>Jowisz</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>deklinacja</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <object class="com.Kosmos.Model.Deklinacja"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>masa</string>
+    <void method="set">
+     <object idref="Planeta0"/>
+     <double>1.898129972643561E27</double>
+    </void>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="RodzajPlanety0" method="valueOf">
+   <class>com.Kosmos.Planety.RodzajPlanety</class>
+   <string>Gazowa</string>
+  </object>
+ </void>
+</void>
+<void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+ <string>nazwaKatalogowa</string>
+ <void method="set">
+  <object class="com.Kosmos.Układy.UkladPlanetarny" id="UkladPlanetarny0">
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwa</string>
+    <void method="set">
+     <object idref="UkladPlanetarny0"/>
+     <string>Układ Słoneczny</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>deklinacja</string>
+    <void method="set">
+     <object idref="UkladPlanetarny0"/>
+     <object class="com.Kosmos.Model.Deklinacja"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>masa</string>
+    <void method="set">
+     <object idref="UkladPlanetarny0"/>
+     <double>1.9916674505205866E30</double>
+    </void>
+   </void>
+  </object>
+  <string>OK:UK:Układ Słoneczny</string>
+ </void>
+</void>
+<void class="com.Kosmos.Planety.Planeta" method="getField">
+ <string>rodzajPlanety</string>
+ <void method="set">
+  <object class="com.Kosmos.Planety.Planeta" id="Planeta1">
+   <void class="com.Kosmos.Planety.Planeta" method="getField">
+    <string>czyZawieraTlen</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <boolean>true</boolean>
+    </void>
+   </void>
+   <void class="com.Kosmos.Planety.Planeta" method="getField">
+    <string>czyZawieraWode</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <boolean>true</boolean>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>promien</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <float>6371.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>rodzajCialaNiebieskiego</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <object idref="RodzajCialaNiebieskiego0"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>temperaturaKelvin</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <float>288.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwaKatalogowa</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <string>OK:CN:P:Ziemia</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwa</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <string>Ziemia</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>deklinacja</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <object class="com.Kosmos.Model.Deklinacja"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>masa</string>
+    <void method="set">
+     <object idref="Planeta1"/>
+     <double>5.972000231429685E24</double>
+    </void>
+   </void>
+  </object>
+  <object class="java.lang.Enum" id="RodzajPlanety1" method="valueOf">
+   <class>com.Kosmos.Planety.RodzajPlanety</class>
+   <string>Skalista</string>
+  </object>
+ </void>
+</void>
+<void class="com.Kosmos.Planety.Planeta" method="getField">
+ <string>rodzajPlanety</string>
+ <void method="set">
+  <object class="com.Kosmos.Planety.Planeta" id="Planeta2">
+   <void class="com.Kosmos.Planety.Planeta" method="getField">
+    <string>czyZawieraTlen</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <boolean>true</boolean>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>promien</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <float>25362.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>rodzajCialaNiebieskiego</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <object idref="RodzajCialaNiebieskiego0"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+    <string>temperaturaKelvin</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <float>750.0</float>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwaKatalogowa</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <string>OK:CN:P:Uran</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>nazwa</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <string>Uran</string>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>deklinacja</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <object class="com.Kosmos.Model.Deklinacja"/>
+    </void>
+   </void>
+   <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+    <string>masa</string>
+    <void method="set">
+     <object idref="Planeta2"/>
+     <double>8.680000131733569E25</double>
+    </void>
+   </void>
+  </object>
+  <object idref="RodzajPlanety0"/>
+ </void>
+</void>
+<void class="com.Kosmos.Układy.UkladPlanetarny" id="Field0" method="getField">
+ <string>cialaNiebieskie</string>
+ <void id="ArrayList0" method="get">
+  <object idref="UkladPlanetarny0"/>
+  <void method="add">
+   <object idref="Planeta1"/>
+  </void>
+  <void method="add">
+   <object class="com.Kosmos.Planety.Planeta" id="Planeta3">
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>rodzajPlanety</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <object idref="RodzajPlanety1"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>czyZawieraWode</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>promien</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <float>3389.5</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>rodzajCialaNiebieskiego</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <object idref="RodzajCialaNiebieskiego0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>temperaturaKelvin</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <float>210.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwaKatalogowa</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <string>OK:CN:P:Mars</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwa</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <string>Mars</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>deklinacja</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <object class="com.Kosmos.Model.Deklinacja"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>masa</string>
+     <void method="set">
+      <object idref="Planeta3"/>
+      <double>6.389999705145054E23</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Planeta0"/>
+  </void>
+  <void method="add">
+   <object class="com.Kosmos.Planety.Planeta" id="Planeta4">
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>rodzajPlanety</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <object idref="RodzajPlanety0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>czyZawieraTlen</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>czyZawieraWode</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>promien</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <float>58232.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>rodzajCialaNiebieskiego</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <object idref="RodzajCialaNiebieskiego0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>temperaturaKelvin</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <float>134.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwaKatalogowa</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <string>OK:CN:P:Saturn</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwa</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <string>Saturn</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>deklinacja</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <object class="com.Kosmos.Model.Deklinacja"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>masa</string>
+     <void method="set">
+      <object idref="Planeta4"/>
+      <double>5.682999865121907E26</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Planeta2"/>
+  </void>
+  <void method="add">
+   <object class="com.Kosmos.Planety.Planeta" id="Planeta5">
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>rodzajPlanety</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <object idref="RodzajPlanety0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>czyZawieraTlen</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>czyZawieraWode</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>promien</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <float>24622.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>rodzajCialaNiebieskiego</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <object idref="RodzajCialaNiebieskiego0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>temperaturaKelvin</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <float>20.28</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwaKatalogowa</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <string>OK:CN:P:Neptun</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwa</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <string>Neptun</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>deklinacja</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <object class="com.Kosmos.Model.Deklinacja"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>masa</string>
+     <void method="set">
+      <object idref="Planeta5"/>
+      <double>1.023999977287302E26</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Gwiazda0"/>
+  </void>
+  <void method="add">
+   <object class="com.Kosmos.Planety.Planeta" id="Planeta6">
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>rodzajPlanety</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <object idref="RodzajPlanety1"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>promien</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <float>2439.7</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>rodzajCialaNiebieskiego</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <object idref="RodzajCialaNiebieskiego0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>temperaturaKelvin</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <float>700.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwaKatalogowa</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <string>OK:CN:P:MERKURY</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwa</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <string>MERKURY</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>deklinacja</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <object class="com.Kosmos.Model.Deklinacja"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>masa</string>
+     <void method="set">
+      <object idref="Planeta6"/>
+      <double>3.285000147813869E23</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.Kosmos.Planety.Planeta" id="Planeta7">
+    <void class="com.Kosmos.Planety.Planeta" method="getField">
+     <string>rodzajPlanety</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <object idref="RodzajPlanety1"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>promien</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <float>6051.8</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>rodzajCialaNiebieskiego</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <object idref="RodzajCialaNiebieskiego0"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.CialoNiebieskie" method="getField">
+     <string>temperaturaKelvin</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <float>737.0</float>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwaKatalogowa</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <string>OK:CN:P:Wenus</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>nazwa</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <string>Wenus</string>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>deklinacja</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <object class="com.Kosmos.Model.Deklinacja"/>
+     </void>
+    </void>
+    <void class="com.Kosmos.Model.ObiektKosmiczny" method="getField">
+     <string>masa</string>
+     <void method="set">
+      <object idref="Planeta7"/>
+      <double>4.866999909161822E24</double>
+     </void>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="com.Kosmos.Układy.Uklady" id="Field1" method="getField">
+ <string>uklady</string>
+ <void id="ArrayList1" method="get">
+  <object idref="Uklady0"/>
+  <void method="add">
+   <object idref="UkladPlanetarny0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+</java>
